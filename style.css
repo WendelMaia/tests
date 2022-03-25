@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    color: #a3a5a2;
+
+}
+
+div#container {
+    align-items: center;
+    border: 0.8mm solid;
+    border-color: #343539;
+    display: flex;
+    flex-direction: column;
+    padding: 1cm 1cm 1.7cm 1cm;
+    height: 12cm;
+    width: 10cm;
+    border-radius: 2mm;
+    
+}
+
+h1 {
+    height: 3mm;
+}
+
+h4 {
+    height: 1.3cm;
+}
+
+input#login {
+    border: 1px solid #343539;
+    padding: 18px;
+    border-radius: 2mm;
+    width: 9cm;
+
+}
+
+input {
+    background-color: #0000;
+}
+
+button#remember {
+    background-color: #0000;
+    color: #2b6fc4;
+    border-style: none;
+    align-self: baseline;
+    margin-top: 2mm;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+p#info {
+    font-size: medium;
+    width: 100%;
+}
+
+button#more {
+    background-color: #0000;
+    color: #2b6fc4;
+    border-style: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button#prx {
+    background-color: #3892ff;
+    border-style: none;
+    font-size: small;
+    font-weight: bold;
+    color: #fff;
+    padding: 2mm 3mm;
+    border-radius: 0.8mm;
+}
+
+div#bts {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+button#conta {
+    background-color: #0000;
+    color: #2b6fc4;
+    border-style: none;
+    font-weight: bold;
+    font-size: medium;
+}
